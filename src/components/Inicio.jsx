@@ -40,4 +40,14 @@ const StyledContainer= styled.section `
         max-width:1000px;
         padding-left:80px;
     }
+    @media (max-width: 768px) {
+  div {
+    text-align: left;
+    padding-left:0;
+    margin-left: 3%;
+    font-size: 15px;
+  }
+}
+
+
 `

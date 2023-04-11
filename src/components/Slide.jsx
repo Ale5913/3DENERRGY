@@ -78,5 +78,36 @@ background-color: white;
   padding: 10px 20px;
   background-color: #3333
 }
+@media only screen and (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 19px 10px;
+  }
 
+  .card .content {
+    width: 60%;
+    margin-top: 20px;
+    text-align: start;
+  }
+
+  .card h2 {
+    font-size: 20px;
+    text-align: start;
+  }
+
+  .card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: start;
+  }
+
+  .card button {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+  .img{
+    width: 60%;
+  }
+}
 `

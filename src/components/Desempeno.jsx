@@ -126,5 +126,38 @@ const Container = styled.section`
   font-size:27px;
   cursor: pointer;
 }
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+        margin-top: 30px;
+    }
+
+    div {
+        font-size: 20px;
+    }
+    div.locaciones{
+        font-size: 12px;
+    }
+    div.titulos {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .circulo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .ciculocontainer {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .green-button {
+        font-size: 20px;
+        padding: 8px 16px;
+        margin: 30px auto;
+    }
+}
 
 `

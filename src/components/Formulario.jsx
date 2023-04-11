@@ -71,7 +71,8 @@ const StyledContactForm = styled.div`
     display:inline-block;
     margin-top:110px;
     font-size:20px;
-  
+
+
   div{
     margin-left: 30px;
     float: left;
@@ -131,6 +132,13 @@ const StyledContactForm = styled.div`
       border: none;
     }
   }
+  @media (max-width: 768px) {
+    form {
+      width: 60%;
+      font-size: 16px;
+      margin-left: 0;
+    }
+  }
   img{
 
         float: right;
@@ -138,8 +146,15 @@ const StyledContactForm = styled.div`
         width:600px;
         margin-right:100px;
         margin-top: 30px;
-    }
-  .contenedor {
+}
+@media (max-width: 768px) {
+  img{
+    float: left;
+  }
+}
+
+
+.contenedor {
     margin-left: 100px ;
     width: 1300px;
     display: flex;
@@ -165,5 +180,19 @@ const StyledContactForm = styled.div`
 p{ 
   color: #53786E;
   font-size:25;
+}
+@media (max-width: 768px) {
+  .contenedor {
+    flex-direction: column;
+    align-items: left;
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  .recuadro {
+    width: 80%;
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
 }
 `;

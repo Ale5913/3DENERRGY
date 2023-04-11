@@ -9,6 +9,8 @@ import { useState, useEffect } from 'react';
 function Metodologia(){
     const [esPantallaGrande, setEsPantallaGrande] = useState(window.innerWidth > 768);
 
+    //Cambie el tipo de imagen dependiendo el tamaño de la pantalla
+    
     useEffect(() => {
       const handleResize = () => {
         setEsPantallaGrande(window.innerWidth > 768);
@@ -91,12 +93,30 @@ const Container = styled.section`
     background-color: white;
     width: 400px;
     height: auto;
-    float: center;
+    float: left;
     margin-left:60px;
     }
 
     .imagen-oculta {
     display: none;
     }
+    @media (max-width: 768px) {
+  h1{
+    font-size: 2rem;
+    margin-left: 20;
+  }
+  
+  div{
+    max-width: 100%;
+    padding-left: 5%;
+    margin-left: 0;
+  }
+  
+  img{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
   
 `

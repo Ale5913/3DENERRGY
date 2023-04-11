@@ -133,4 +133,81 @@ const Container = styled.section`
         width: 700px;
     }
 
+    @media screen and (max-width: 768px) {
+  h1 {
+    font-size: 5vw;
+    margin-top: 10vw;
+    text-align: start;
+    margin-left: 5%;
+  }
+
+  div {
+    font-size: 5vw;
+    margin-top: 10vw;
+    margin-left: 5%;
+    text-align: start;
+  }
+
+  h2 {
+    font-size: 10vw;
+    margin-left: 5vw;
+  }
+
+  h3 {
+    font-size: 15vw;
+    margin-left: 5vw;
+  }
+
+  h4 {
+    font-size: 6vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  h5 {
+    font-size: 15vw;
+    margin-top: 20vw;
+    margin-left: 10vw;
+  }
+
+  img {
+    width: 70%;
+    margin: 5vw;
+    margin-left: 5%;
+    float: left;
+  }
+
+  img.dos {
+    width: 90%;
+    margin-left: 5%;
+    position: relative;
+  }
+
+  img.tres {
+    width: 78%;
+    margin-left: 10%;
+    margin-top: 10vw;
+  }
+
+  img.cuatro {
+    width: 80%;
+    margin: 5vw;
+    margin-left: 5%;
+  }
+
+  div.b {
+    margin-left: 5vw;
+  }
+
+  img.cinco {
+    width: 30%;
+    margin: 2vw;
+    margin-left: 5%;
+  }
+  img.seis{
+        width: 300px;
+        margin-left: 5%;
+    }
+}
+
 `
